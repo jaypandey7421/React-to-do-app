@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #F4EAE6;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.main-header{
+    text-align: center;
+}
+.parent{
+    width: 390px;
+    border: 2px solid #E57F84;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.input-container{
+    padding: 3px;
+    background-color: #F4EAE6;
+    text-align: center;
+}
+input{
+    font-size: 1em;
+    padding: 5px;
+    background: none;
+    border: none;
+    outline: none;
+}
+.input-container button{
+    font-size: 1em;
+    padding: 5px;
+    background: #4297A0;
+    border: none;
+    outline: none;
+}
+hr{
+    margin-bottom: 1em;
+}
+.empty-div{
+    height: 3rem;
+}
+.empty-msg{
+    text-align: center;
+    font-size: 1em;
+    opacity: 0.7;
+    line-height: 3rem;
+}
+.to-do-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background: none;
+    border-bottom: 2px solid #4297A0;
+    border-radius: 3px;
+}
+.to-do-item p{
+    font-size: 14px;
+}
+button{
+    cursor: pointer;
+}
